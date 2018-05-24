@@ -806,11 +806,22 @@ input[type="button"]:focus {
     outline: 0;
 }
 
+.cent{
+    /*position: absolute;*/
+    /*height: 200px;*/
+    /*width: 400px;*/
+    margin: auto;
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*right: 50%;*/
+}
+
 
 /* button primary
  * ------------------------------------------------- */
 
-.btn.btn--primary, 
+.btn.btn--primary,
+a.btn--primary,
 button.btn--primary, 
 input[type="submit"].btn--primary, 
 input[type="reset"].btn--primary, 
@@ -3147,7 +3158,7 @@ html.no-csstransitions .home-content__main {
     border-bottom: 1px solid white;
 }
 
-.contact__form button {
+.contact__form a {
     margin-top: 4.2rem;
     background-color: #862121;
     border-color: #862121;
