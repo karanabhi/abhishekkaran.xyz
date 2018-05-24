@@ -7,6 +7,14 @@
 
     "use strict";
 
+    //Custom Clicks
+    $(".navs").click(function(){
+        $(".navs").parent("li").removeClass("current");
+        $(this).parent("li").addClass("current");
+    });
+
+
+
     var cfg = {
         scrollDuration : 800, // smoothscroll duration
         mailChimpURL   : ''   // mailchimp url
@@ -429,6 +437,7 @@
         ssBackToTop();
 
     })();
+})
 
+(jQuery);
 
-})(jQuery);
